@@ -1,0 +1,12 @@
+apiVersion: demo.rajib.xyz/v1
+kind: DemoVolume
+metadata:
+  labels:
+    app.kubernetes.io/name: demovolume
+    app.kubernetes.io/instance: demovolume-sample
+    app.kubernetes.io/part-of: kubebuilder-demo
+    app.kuberentes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kubebuilder-demo
+  name: demovolume-sample
+spec:
+  # TODO(user): Add fields here
