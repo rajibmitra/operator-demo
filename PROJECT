@@ -1,0 +1,6 @@
+domain: rajib.xyz
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-demo
+repo: kubebuilder-demo
+version: "3"
